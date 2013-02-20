@@ -7,6 +7,7 @@ class EmailSendDefinition < APIObject
   property 'Name', :required => true
   property 'SendDefinitionList'
   property 'SendClassification'
+  property 'SenderProfile'
   property 'Email'
   property 'CategoryID'
   property 'DeduplicateByEmail'
