@@ -8,6 +8,7 @@ class DataExtension < APIObject
   property 'CategoryID'
   property 'SendableDataExtensionField'
   property 'SendableSubscriberField'
+  property 'Client'
 
 end
 end

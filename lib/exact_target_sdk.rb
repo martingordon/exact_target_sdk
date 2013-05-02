@@ -38,5 +38,6 @@ module ExactTargetSDK
   autoload :UpdateResponse, 'exact_target_sdk/update_response'
   autoload :UpdateResult, 'exact_target_sdk/update_result'
   autoload :DataFolder, 'exact_target_sdk/data_folder'
+  autoload :ClientID, 'exact_target_sdk/client_i_d'
 
 end

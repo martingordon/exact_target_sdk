@@ -11,6 +11,7 @@ class EmailSendDefinition < APIObject
   property 'Email'
   property 'CategoryID'
   property 'DeduplicateByEmail'
+  property 'Client'
 
 end
 

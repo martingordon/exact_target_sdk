@@ -6,6 +6,7 @@ class DataFolder < APIObject
   property 'Description'
   property 'ParentFolder'
   property 'ContentType'
+  property 'Client'
 end
 
 end

@@ -12,6 +12,7 @@ class SendClassification < APIObject
   property 'HonorPublicationListOptOutsForTransactionalSends'
   property 'SendPriority'
   property 'ArchiveEmail'
+  property 'Client'
 
   validates 'SendClassificationType', :inclusion => { :allow_nil => true, :in => SEND_CLASSIFICATION_TYPES }
 end
